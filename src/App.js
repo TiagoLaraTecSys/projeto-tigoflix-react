@@ -1,10 +1,10 @@
 import React from 'react';
+import Menu from './components/Menu'
 
 function App() {
   return (
     <div >
-      <h1>Tigoflix está vindo</h1> 
-      JSX - [J]avas[S]cript [X]ml
+      <Menu/>
     </div>
   );
 }
