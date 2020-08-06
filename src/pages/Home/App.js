@@ -1,13 +1,13 @@
 import React from 'react';
-import Menu from './components/Menu'
-import MainImage from './components/MainImage'
+import Menu from '../../components/Menu'
+import MainImage from '../../components/MainImage'
 
-import BannerMain from './components/BannerMain'
-import Carousel from './components/Carousel'
-import Footer from './components/Footer'
-import dados_iniciais from './Data/dados_iniciais.json'
+import BannerMain from '../../components/BannerMain'
+import Carousel from '../../components/Carousel'
+import Footer from '../../components/Footer'
+import dados_iniciais from '../../Data/dados_iniciais.json'
 
-function App() {
+function Home() {
   return (
     <div >
       <Menu/>
@@ -29,5 +29,5 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
  
