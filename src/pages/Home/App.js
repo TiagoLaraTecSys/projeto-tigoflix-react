@@ -14,8 +14,8 @@ function Home() {
 
       <BannerMain
         videoTitle={dados_iniciais.categorias[0].videos[0].titulo}
-        url={dados_iniciais.categorias[0].videos[0].url}
-        videoDescription={"O que é Front-end? Trabalhando na área" }
+        url={'https://www.youtube.com/watch?v=Mjq_PpiYR3o&t=98s'}
+        videoDescription={"Como iniciar no mundo de investimentos no Mercado de Capitais?" }
       />
 
       <Carousel

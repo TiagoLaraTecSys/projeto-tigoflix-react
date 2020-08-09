@@ -10,7 +10,7 @@ export const ContentAreaContainer = styled.section`
   position: relative;
   z-index: 10;
   @media (max-width: 800px) {
-    padding-top: 100px;
+    padding-top: 10px;
     flex-direction: column;
   }
 `;
@@ -41,7 +41,7 @@ ContentAreaContainer.Category = styled.h1`
   @media (max-width: 800px) {
     display: none;
     font-size: 18px;
-    padding: 10px;
+    padding: 100px;
   }
 `;
 
